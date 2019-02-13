@@ -1,0 +1,24 @@
+{
+    "name": "petemcw/module-disable-reviews",
+    "description": "Easily disable product reviews for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-review": "*",
+        "magento/module-store": "*",
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Prm\\DisableReviews\\": ""
+        }
+    }
+}
